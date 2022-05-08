@@ -91,6 +91,15 @@ header nav div .logo li a .span2 {
     color: #01b8dc;
 }
 
+@media (max-width: 1200px) {}
+
+@media (max-width: 900px) {
+    header nav div {
+        width: 90%;
+        position: static;
+    }
+}
+
 @media (max-width: 600px) {
     header nav {
         width: 100%;
@@ -128,14 +137,6 @@ header nav div .logo li a .span2 {
         color: yellow;
     }
 }
-
-@media (max-width: 900px) {
-    header nav div {
-        width: 90%;
-    }
-}
-
-@media (max-width: 1200px) {}
 
 /* End of nav bar */
 
@@ -228,6 +229,33 @@ header .header-content .row-2 .col:hover h3 {
     color: #01b8dc;
 }
 
+@media (max-width: 1200px) {}
+
+@media (max-width: 900px) {
+
+    header .header-content {
+        width: 90%;
+    }
+
+    header .header-content .row-1 .col {
+        width: 100%;
+    }
+
+    header .header-content .row-2 {
+        margin-top: -70px;
+    }
+
+    header .header-content .row-2 .col {
+        width: 100%;
+        text-align: center;
+    }
+
+    header .header-content .row-2 .col p {
+        margin-top: 20px;
+        text-align: right;
+    }
+}
+
 @media (max-width: 600px) {
     header .header-content {
         width: 90%;
@@ -278,33 +306,6 @@ header .header-content .row-2 .col:hover h3 {
     }
 }
 
-@media (max-width: 900px) {
-
-    header .header-content {
-        width: 90%;
-    }
-
-    header .header-content .row-1 .col {
-        width: 100%;
-    }
-
-    header .header-content .row-2 {
-        margin-top: -70px;
-    }
-
-    header .header-content .row-2 .col {
-        width: 100%;
-        text-align: center;
-    }
-
-    header .header-content .row-2 .col p {
-        margin-top: 20px;
-        text-align: right;
-    }
-}
-
-@media (max-width: 1200px) {}
-
 /* End of header */
 
 #about {
@@ -335,6 +336,10 @@ header .header-content .row-2 .col:hover h3 {
     color: #6a7489;
 }
 
+@media (max-width: 1200px) {}
+
+@media (max-width: 900px) {}
+
 @media (max-width: 600px) {
     #about {
         margin-top: 20px;
@@ -352,10 +357,6 @@ header .header-content .row-2 .col:hover h3 {
         text-align: center;
     }
 }
-
-@media (max-width: 900px) {}
-
-@media (max-width: 1200px) {}
 
 /* End of about */
 
