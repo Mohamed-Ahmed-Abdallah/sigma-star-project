@@ -95,7 +95,6 @@ header nav div .logo li a .span2 {
 
 @media (max-width: 900px) {
     header nav {
-        width: 90%;
         position: static;
     }
     
