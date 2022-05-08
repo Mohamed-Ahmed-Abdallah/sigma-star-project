@@ -97,7 +97,7 @@ header nav div .logo li a .span2 {
     header nav {
         position: static;
     }
-    
+
     header nav div {
         width: 95%;
     }
@@ -312,6 +312,7 @@ header .header-content .row-2 .col:hover h3 {
 /* End of header */
 
 #about {
+    padding-top: 100px;
     width: 80%;
     margin: auto;
     display: flex;
@@ -341,11 +342,16 @@ header .header-content .row-2 .col:hover h3 {
 
 @media (max-width: 1200px) {}
 
-@media (max-width: 900px) {}
+@media (max-width: 900px) {
+    #about {
+        padding-top: 0px;
+    }
+}
 
 @media (max-width: 600px) {
     #about {
         margin-top: 20px;
+        padding-top: 0px;
     }
 
     #about .col {
@@ -364,6 +370,7 @@ header .header-content .row-2 .col:hover h3 {
 /* End of about */
 
 #services {
+    padding-top: 100px;
     width: 80%;
     margin: auto;
     margin-top: 100px;
@@ -381,7 +388,7 @@ header .header-content .row-2 .col:hover h3 {
 
 #services>h3 {
     position: absolute;
-    top: 27px;
+    top: 13%;
     right: 46%;
     font-size: 30px;
     color: rgb(133, 142, 161);
@@ -428,7 +435,12 @@ header .header-content .row-2 .col:hover h3 {
     color: #01b8dc;
 }
 
+@media (max-width: 1200px) {}
+
 @media (max-width: 900px) {
+    #services {
+        padding-top: 0px;
+    }
 
     #services>h3 {
         top: 27px;
@@ -473,6 +485,7 @@ header .header-content .row-2 .col:hover h3 {
 /* End of services */
 
 #clients {
+    padding-top: 100px;
     width: 80%;
     position: relative;
     margin: -50px auto 100px auto;
@@ -489,7 +502,7 @@ header .header-content .row-2 .col:hover h3 {
 
 #clients>h3 {
     position: absolute;
-    top: 27px;
+    top: 60%;
     right: 47%;
     font-size: 30px;
     color: rgb(133, 142, 161);
@@ -503,6 +516,10 @@ header .header-content .row-2 .col:hover h3 {
 @media (max-width: 1200px) {}
 
 @media (max-width: 900px) {
+    #clients {
+        padding-top: 0px;
+    }
+
     #clients>h3 {
         top: 27px;
         right: 44%;
@@ -533,6 +550,7 @@ header .header-content .row-2 .col:hover h3 {
 /* End of clients */
 
 #contact {
+    padding-top: 100px;
     width: 80%;
     position: relative;
     margin: 50px auto 100px auto;
@@ -549,7 +567,7 @@ header .header-content .row-2 .col:hover h3 {
 
 #contact>h3 {
     position: absolute;
-    top: 27px;
+    top: 18%;
     right: 45%;
     font-size: 30px;
     color: rgb(133, 142, 161);
@@ -688,6 +706,9 @@ header .header-content .row-2 .col:hover h3 {
 @media (max-width: 1200px) {}
 
 @media (max-width: 900px) {
+    #contact {
+        padding-top: 0px;
+    }
 
     #contact>h3 {
         top: 27px;
