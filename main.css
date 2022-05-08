@@ -94,9 +94,13 @@ header nav div .logo li a .span2 {
 @media (max-width: 1200px) {}
 
 @media (max-width: 900px) {
-    header nav div {
+    header nav {
         width: 90%;
         position: static;
+    }
+    
+    header nav div {
+        width: 90%;
     }
 }
 
