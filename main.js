@@ -1,6 +1,6 @@
 
 let flag = 0;
-function myFunction(x) {
+function myFunction() {
     if (flag == 0) {
         document.getElementsByTagName("body")[0].style.backgroundColor = "#202020";
         document.getElementsByTagName("nav")[0].style.backgroundColor = "black";
