@@ -374,22 +374,24 @@ header .header-content .row-2 .col:hover h3 {
     width: 80%;
     margin: auto;
     margin-top: 100px;
+}
+
+#services .heading {
+    width: fit-content;
+    margin: auto;
     position: relative;
+    padding-bottom: 5px;
 }
 
-#services h1, #services h3, #services p {
-    text-align: center;
-}
-
-#services>h1 {
+#services .heading h1 {
     font-size: 50px;
     color: rgba(133, 142, 161, 0.2);
 }
 
-#services>h3 {
+#services .heading h3 {
     position: absolute;
-    top: 13%;
-    right: 46%;
+    bottom: 0px;
+    right: 25px;
     font-size: 30px;
     color: rgb(133, 142, 161);
 }
@@ -397,6 +399,10 @@ header .header-content .row-2 .col:hover h3 {
 #services>p {
     margin-top: 25px;
     color: rgb(133, 142, 161);
+}
+
+#services .heading h1, #services p {
+    text-align: center;
 }
 
 #services .all-types {
@@ -441,12 +447,6 @@ header .header-content .row-2 .col:hover h3 {
     #services {
         padding-top: 0px;
     }
-
-    #services>h3 {
-        top: 27px;
-        right: 43%;
-    }
-
 }
 
 @media (max-width: 600px) {
@@ -454,11 +454,6 @@ header .header-content .row-2 .col:hover h3 {
         margin: 50px auto;
         padding: 20px 0px;
         border-top: 2px solid #01b8dc;
-    }
-
-    #services>h3 {
-        top: 45px;
-        right: 38%;
     }
 
     #services .all-types .type {
@@ -491,26 +486,33 @@ header .header-content .row-2 .col:hover h3 {
     margin: -50px auto 100px auto;
 }
 
-#clients h1, #clients h3, #clients p {
-    text-align: center;
+#clients .heading {
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    padding-bottom: 5px;
 }
 
-#clients>h1 {
+#clients .heading h1 {
     font-size: 50px;
     color: rgba(133, 142, 161, 0.2);
 }
 
-#clients>h3 {
+#clients .heading h3 {
     position: absolute;
-    top: 60%;
-    right: 47%;
+    bottom: 0px;
+    right: 25px;
     font-size: 30px;
     color: rgb(133, 142, 161);
 }
 
-#clients>p {
+#clients p {
     margin-top: 25px;
     color: rgb(133, 142, 161);
+}
+
+#clients .heading h1, #clients p {
+    text-align: center;
 }
 
 @media (max-width: 1200px) {}
@@ -520,12 +522,7 @@ header .header-content .row-2 .col:hover h3 {
         padding-top: 0px;
     }
 
-    #clients>h3 {
-        top: 27px;
-        right: 44%;
-    }
-
-    #clients>p {
+    #clients p {
         text-align: right;
     }
 }
@@ -537,12 +534,7 @@ header .header-content .row-2 .col:hover h3 {
         text-align: justify;
     }
 
-    #clients>h3 {
-        top: 45px;
-        right: 38%;
-    }
-
-    #clients>p {
+    #clients p {
         text-align: right;
     }
 }
@@ -556,19 +548,22 @@ header .header-content .row-2 .col:hover h3 {
     margin: 50px auto 100px auto;
 }
 
-#contact>h1, #contact>h3, #contact>p {
-    text-align: center;
+#contact .heading {
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    padding-bottom: 10px;
 }
 
-#contact>h1 {
+#contact .heading h1 {
     font-size: 50px;
     color: rgba(133, 142, 161, 0.2);
 }
 
-#contact>h3 {
+#contact .heading h3 {
     position: absolute;
-    top: 18%;
-    right: 45%;
+    bottom: 0px;
+    right: 35px;
     font-size: 30px;
     color: rgb(133, 142, 161);
 }
@@ -576,6 +571,10 @@ header .header-content .row-2 .col:hover h3 {
 #contact>p {
     margin-top: 25px;
     color: rgb(133, 142, 161);
+}
+
+#contact .heading h1, #contact>p {
+    text-align: center;
 }
 
 #contact label {
@@ -710,11 +709,6 @@ header .header-content .row-2 .col:hover h3 {
         padding-top: 0px;
     }
 
-    #contact>h3 {
-        top: 27px;
-        right: 40%;
-    }
-
     #contact .container .info {
         width: 100%;
         margin-bottom: 50px;
@@ -730,11 +724,6 @@ header .header-content .row-2 .col:hover h3 {
         margin: auto;
         border-top: 2px solid #01b8dc;
         padding-top: 20px;
-    }
-
-    #contact>h3 {
-        top: 50px;
-        right: 30%;
     }
 
     #contact .container {
