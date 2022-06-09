@@ -1,0 +1,29 @@
+body {
+    background-color: #202020;
+}
+
+nav, footer {
+    background-color: black !important;
+}
+
+h1, h3 {
+    color: rgba(255, 255, 0, 0.7) !important;
+}
+
+p, a {
+    color: white !important;
+}
+
+label {
+    color: yellow !important;
+}
+
+.form, .info {
+    background-color: green !important;
+}
+
+#services .heading h3,
+#clients .heading h3,
+#contact .heading h3 {
+    display: none;
+}
