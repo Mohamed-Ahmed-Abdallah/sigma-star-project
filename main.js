@@ -22,3 +22,4 @@ function myFunction() {
     else
         link[link.length - 1].removeAttribute("href");
 }
+
