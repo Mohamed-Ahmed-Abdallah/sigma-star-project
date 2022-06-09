@@ -15,11 +15,18 @@ document.addEventListener('click', function (e) {
 })
 
 function myFunction() {
+    const button = document.querySelector("button");
     const link = document.querySelectorAll("head link");
-    
-    if (link[link.length - 1].getAttribute("href") == null)
+
+    if (link[link.length - 1].getAttribute("href") == null) 
+    {
         link[link.length - 1].href = "nightmode.css";
-    else
+        button.innerText = "الوضع العادي";
+    }
+    else 
+    {
         link[link.length - 1].removeAttribute("href");
+        button.innerText = "الوضع الليلي";
+    }
 }
 
